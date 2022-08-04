@@ -1,0 +1,44 @@
+body{
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+header{
+    padding: 20px;
+    border: #ffdde1;
+    background-color: beige;
+}
+.navegacion{
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.inline {
+    display: inline-block;
+}
+.logo {
+    margin: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Albert Sans', sans-serif;
+}    
+.links-nav{
+    margin-top: 15px;
+    position: absolute;
+    right: 50px;
+    font-size: 25px;
+    color: rgb(177, 17, 44);
+    font-weight: bold;
+}
+section{
+    position: relative;
+}
+.contenedor1{
+    width: 30%;
+    margin: 15px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contenedor2{
+    width: 60%;
+    margin: 15px;
+    position: absolute;
+}

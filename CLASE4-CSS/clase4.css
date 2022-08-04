@@ -1,0 +1,38 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+h4{
+    color: red;
+    font-size: 30px;
+}
+#h4Redes {
+    text-align: center;
+}
+hr{
+    border: 5px solid rgb(190, 10, 10);
+}
+.caja {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    padding: 10px red;
+    text-align: center;
+}
+.textoBlanco{
+    color: beige;
+}
+.borde {
+    background-color: white;
+    border: 10px solid red;
+    /* arriba - derecha - abajo - izquierda */
+    margin: 50px 300px 200px 150px;
+    /* arriba/abajo - izquierda/derecha */
+    margin: 150px 200px;}
+
+.bgImage {
+    width: 100%
+    background-image: url(https://static7.depositphotos.com/1006137/690/i/600/depositphotos_6908971-stock-photo-red-background.jpg)
+}
+    
+   

@@ -1,0 +1,66 @@
+.bg-blue-gradient, .list-group-item{
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.sectionPerfil{
+    color: azure;
+    padding: 30px;
+    text-align: justify;
+    margin: 50px;
+}
+
+.iconosRedes{
+    position: fixed;
+    top: 200px;
+    
+}
+.iconosubir{
+    position: fixed;
+    top: 720px;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+section{
+    padding: 50px;
+    font-family: 'Albert Sans', sans-serif;
+    color: azure;
+    /* text-align: justify; */
+}
+.bg-gray-dark{
+    background-color: rgb(4, 40, 47);
+}
+
+.imgFluid{
+    width: 100%;
+    height: auto;
+}
+
+@media all and (min-width:768px) and (max-width:991px){
+    .imgFluid{
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media all and (max-width:767px){
+    .imgFluid{
+        width: 70%;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'PT Serif', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #222;
+    padding: 50px 0px;
+}
+
+header div ul li{
+    display: inline;
+    position: relative;
+    left: 75%;
+    bottom: 18px;
+
+}
+
+header ul li a {
+    color: #444;
+    padding: 5px;
+    background-color: rgb(96, 149, 202) ;
+    border-radius: 10%;
+}
+
+.logo{
+    position: relative;
+    color: rgb(177, 130, 73);
+    font-size: 35px;
+    top: 5px;
+    left: 25px;
+}
+
+
+.main{
+    background: rgb(35,110,111);
+background: linear-gradient(0deg, rgba(35,110,111,1) 0%, rgba(45,94,75,1) 72%, rgba(80,66,37,1) 100%);
+}
+
+.sectionPrincipal {
+    padding: 20px 15px;
+    display: flex;
+}
+
+.imagenPrincipal{
+    width: 30%;
+    margin: 10px;
+}
+
+.textoImgPrincipal{
+    width: 75%;
+    margin-left: 25px;
+}
+
+.footer{
+    background-color: #333;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.logoFaceFooter{
+    color: #05f;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.logoInstaFooter{
+    color: rgb(111, 50, 134);
+    font-size: 24px;
+    margin: 5px;
+}
+
+.logoTwitterFooter{
+    color: #5af;
+    font-size: 24px;   
+    margin: 5px; 
+}
+
+@media screen and (max-width: 680px) {
+
+    header {
+        padding: 0;
+    }
+    header div ul li{
+        left: 50%;
+        display: block;
+        margin: 15px;
+        bottom: 50px;
+    }
+    .sectionPrincipal{
+        flex-direction: column;
+    }
+    .imagenPrincipal{
+        width: 75%;
+    }
+}

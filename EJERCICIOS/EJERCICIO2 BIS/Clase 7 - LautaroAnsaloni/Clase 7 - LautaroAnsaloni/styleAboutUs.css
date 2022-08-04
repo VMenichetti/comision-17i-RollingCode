@@ -1,0 +1,266 @@
+body {
+  margin: 0px;
+  background-image: linear-gradient(
+    to left bottom,
+    #5d0939,
+    #5d0a47,
+    #591155,
+    #511965,
+    #412375,
+    #3b398f,
+    #2d4fa7,
+    #0064be,
+    #008bdc,
+    #00abc8,
+    #00c489,
+    #54d42d
+  );
+}
+
+/* NAVBAR */
+header {
+  padding: 30px;
+}
+.flex-nav {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  margin-top: 15px;
+  font-size: 25px;
+  padding: 0px 30px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  flex-basis: 40%;
+}
+.links-nav {
+  margin-right: 100px;
+}
+.a-links {
+  margin: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+.button {
+  font-size: 15px;
+  padding: 20px 70px;
+  border-radius: 35px;
+  margin: 0px;
+  cursor: pointer;
+}
+/* links */
+
+.nav-link {
+  font-size: 17px;
+  background: transparent;
+  border: none;
+  padding: 1em 1.5em;
+  color: #838384;
+  text-transform: uppercase;
+  position: relative;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  padding-right: var(--bs-navbar-nav-link-padding-x);
+  padding-left: var(--bs-navbar-nav-link-padding-x);
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #e18a9a;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.nav-link:hover {
+  color: #1e1e2b;
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background-color: #e18a9a;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  z-index: -1;
+}
+
+.nav-link:hover::after {
+  height: 100%;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+  color: aliceblue;
+}
+
+/* PRIMER SECCION */
+.section-one {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 70px;
+  background-color: #212529;
+  color: #83838b;
+  text-transform: uppercase;
+}
+
+/* BUTTON */
+
+button {
+  padding: 15px 75px;
+  margin-top: 26px;
+  border: unset;
+  border-radius: 15px;
+  color: #ffffff;
+  z-index: 1;
+  background: #212529;
+  position: relative;
+  font-weight: 1000;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  overflow: hidden;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #25395f;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+button:hover {
+  color: #e8e8e8;
+}
+
+button:hover::before {
+  width: 100%;
+}
+
+/* SEGUNDA SECCION = imagen + WHO WE ARE*/
+.section-two {
+  position: relative;
+  display: flex;
+}
+
+.div-section-two {
+  width: 50%;
+  margin-left: 50px;
+  padding: 30px;
+}
+
+.wo-whe-are {
+  margin-top: 70px;
+}
+
+.div-section-two h2 {
+  text-align: center;
+}
+
+.img-section-two {
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  margin: 50px;
+  margin-left: 159px;
+}
+
+.p-section-two {
+  line-height: 23px;
+}
+
+/* TERCER SECCION = OUR VISION + OUR MISION */
+.section-three {
+  position: relative;
+  display: flex;
+}
+
+.section-three h2 {
+  text-align: center;
+}
+
+.text-section-three {
+  width: 50%;
+  top: 50px;
+  margin-left: 50px;
+  padding: 30px;
+}
+.p-section-three {
+  line-height: 23px;
+}
+
+/* SECCION NEWSLETTER */
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #212529;
+}
+
+.newsletter h2 {
+  text-align: center;
+  color: #838284;
+}
+
+.submit-button {
+  width: 100px;
+  border-radius: 35px;
+  margin: 10px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+.social {
+  margin-top: 30px;
+}
+.bi {
+  font-size: larger;
+  padding: 10px;
+  margin: 7px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.bi:hover {
+  color: #212529;
+}

@@ -1,0 +1,147 @@
+header {
+    background-color:khaki;
+    display: flex;
+}
+.logo {
+    width: 168px;
+    margin:10px;
+}
+.nav {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 10px;
+    position: relative;
+    left: 350px;
+    padding: 5px;
+    transition-duration: 0.3s;
+    border-radius: 3px;
+}
+.sectionOne {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(156, 155, 155);
+}
+.chocolateria {
+    width: 460px;
+}
+button {
+    border-radius: 4px;
+}
+.textSectionChoc{
+    width: 500px;
+    position: absolute;
+    top: 50px;
+    margin-left: 50px;
+    display: inline-block;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    background-color: rgb(238, 231, 201);
+}
+h4 {
+    color: rgb(214, 202, 91);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+#hr1 {
+    border: 1px solid rgb(175, 173, 173);
+    border-style: dotted;
+}
+.sectionTwo {
+    height: 200px;
+    margin: 30px;
+    text-align: center;
+}
+.caja {
+    width: 300px;
+    height: 300px;
+    left: 100px;
+    background-color:rgb(156, 155, 155);
+    color: white;
+    margin: 55px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(228, 218, 135)
+}
+.input {
+    display: block;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+textarea.input {
+    height: 100px;
+}
+.button {
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 85px;
+    height:30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button:hover span {
+    padding-right: 25px;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.input{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+footer{
+    background-color:rgb(156, 155, 155);
+    color: black;
+}
+.final{
+    text-align: center;
+    font-size: 35px;
+}
+#hr2{
+    text-align: center;
+    width: 750px;
+    border-style: solid;
+}
+#copy{
+    text-align: center;
+}

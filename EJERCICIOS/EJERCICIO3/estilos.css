@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inline{
+    display: inline-block;
+}
+.Acerca{
+    padding: 80px 600px 0 0;
+    width: 80%;
+    margin-block-start: auto;
+    overflow: hidden;
+}
+.Titulo{
+    color: blueviolet;
+    font-size: 30px;
+    
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.nav{
+    text-align: left;
+    padding: 30px 50px 0 0 ;  
+    margin: 50px; 
+    display: inline;
+}
+.navbar{
+    text-align: right;
+    padding: 30px 50px 0 0;
+    display: inline;
+}
+.navbar>a{
+    color: #f7797d;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar>a:hover{
+    text-decoration: underline;
+  }
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.Cupcake{
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google FONTS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/49102b9949.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Clase 5</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR BOOTSTRAP-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              width="260"
+              height="56"
+              src="https://rollingcodeschool.com/wp-content/uploads/2021/07/Grupo-8.png"
+              class="attachment-large size-large"
+              alt=""
+              loading="lazy"
+              srcset="
+                https://rollingcodeschool.com/wp-content/uploads/2021/07/Grupo-8-200x43.png 200w,
+                https://rollingcodeschool.com/wp-content/uploads/2021/07/Grupo-8.png        260w
+              "
+              sizes="(max-width: 260px) 100vw, 260px"
+            />
+          </a>
+        </div>
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-2">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <div class="vr"></div>
+              <li class="nav-item">
+                <a class="nav-link" href="./indexAboutUs.html">About US</a>
+              </li>
+              <div class="vr"></div>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- container mas info! BOOTSTRAP-->
+    <div class="container-md">
+      <h3>Lorem ipsum dolor sit amet</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+        Libero molestias eligendi voluptatibus explicabo pariatur corrupti
+        <br />
+        laborum aut assumenda illum nihil.
+      </p>
+      <button id="moreinfo" type="button" class="btn btn-outline-dark">
+        QUIERO MAS INFO!
+      </button>
+      <img
+        src="https://images.pexels.com/photos/51394/spin-web-nature-bug-51394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        class="rounded float-end"
+        alt="mascotas"
+      />
+    </div>
+    <!-- Grid de iconos mas info BOOTSTRAP -->
+    <div class="container px-4 py-5" id="icon-grid">
+      <h2 class="pb-2 border-bottom" id="actividades">
+        Algunas de nuestras actividades
+      </h2>
+
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
+      >
+        <div class="col d-flex align-items-start">
+          <i class="fa-brands fa-html5 fa-xl"></i>
+          <div>
+            <h4 class="fw-bold mb-0">HTML</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              ex eveniet reiciendis labore laboriosam, aliquid odio eos eum.
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <i class="fa-brands fa-js fa-xl"></i>
+          <div>
+            <h4 class="fw-bold mb-0">JavaScript (JS)</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              earum dolorum quidem aperiam soluta cum facilis quisquam
+              doloribus.
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <i class="fa-brands fa-css3-alt fa-xl"></i>
+          <div>
+            <h4 class="fw-bold mb-0">Hojas de Estilo en Cascada</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea,
+              esse? Fuga beatae commodi consequuntur. Distinctio iusto cumque
+              rem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DATOS CONTACTO -->
+
+    <div class="input-group">
+      <h2 id="contacto">Contacto</h2>
+      <div class="form">
+        <form action="">
+          <input
+            placeholder="Nombre"
+            type="text"
+            autocomplete="off"
+            class="input"
+          />
+          <input
+            placeholder="E-mail"
+            type="email"
+            autocomplete="off"
+            class="input"
+            required
+          />
+          <input
+            placeholder="Ingrese su consulta"
+            type="text"
+            autocomplete="off"
+            class="input-consulta"
+          />
+          <button type="submit" name="Enviar">Enviar</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="footer-logo">
+        <img
+          width="260"
+          height="56"
+          src="https://rollingcodeschool.com/wp-content/uploads/2021/07/Grupo-8.png"
+          class="attachment-large-footer"
+          alt=""
+          loading="lazy"
+          srcset="
+            https://rollingcodeschool.com/wp-content/uploads/2021/07/Grupo-8-200x43.png 200w,
+            https://rollingcodeschool.com/wp-content/uploads/2021/07/Grupo-8.png        260w
+          "
+          sizes="(max-width: 260px) 100vw, 260px"
+        />
+      </div>
+      <hr />
+      <div class="footer-social">
+        <a href="https://web.whatsapp.com/" target="_blank"
+          ><i class="fa-brands fa-whatsapp fa-xl"></i
+        ></a>
+        <a href="https://twitter.com/" target="_blank"
+          ><i class="fa-brands fa-twitter fa-xl"></i
+        ></a>
+        <a href="https://github.com/" target="_blank"
+          ><i class="fa-brands fa-github fa-xl"></i
+        ></a>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><i class="fa-brands fa-facebook fa-xl"></i
+        ></a>
+      </div>
+      <div class="copyright">
+        <p>Copyright&copy; 2022 - Todos los derechos reservados</p>
+      </div>
+    </div>
+  </body>
+</html>

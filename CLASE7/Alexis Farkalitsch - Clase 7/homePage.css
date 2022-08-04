@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+}
+header {
+    padding: 30px;
+}
+.inline {
+    display: inline-block;
+}
+.logo {
+    margin: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.links-nav {
+    margin-top: 12px;
+    position: absolute;
+    right: 395px;
+}
+.a-links-home {
+    margin: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+.a-links {
+    margin: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.section-1 {
+    padding: 48px 6px 5px 41px;
+    background-color: rgb(204, 204, 204);
+}
+.title-section-1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 47px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+}
+.button{
+    width: 185px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 22px;
+    margin-left: 1057px;
+}
+.img-section-1 {
+    width: 494px;
+    height: 340px;
+    border-radius: 37px;
+    margin: -44px 411px 36px 459px;
+    float: right;
+}
+.text-section-1 {
+    width: 500px;
+    position: absolute;
+    top: 50px;
+    margin-left: 50px;
+}
+.p-section-1 {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.margen-uno {
+    margin-top: 379px;
+    margin-left: 40px;
+}
+.clase {
+    text-align: center;
+
+    color: #fff;
+    font-size: 50px;
+    font-family: "ubuntu";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right, #000000 10%, #ffffff 50%, rgba(252, 163, 17, 1) 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    display: inline-block;
+}
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+.imagenes {
+    display: inline-block;
+    margin: 52px;
+    padding-left: 255px;
+    height: 88px;
+}
+.cuadro {
+    font-size: 20px;
+    color: blue;
+    margin: -31px -80px;
+    padding-left: 81px;
+}
+.cuadro-1 {
+    font-size: 20px;
+    padding-left: 77px;
+}
+.cuadro-2 {
+    color: blue;
+    font-size: 20px;
+    padding-left: 0px;
+}
+.section-2 {
+    font-size: 45px;
+}
+.tamaño {
+    border-radius: 7px;
+    margin-left: 43%;
+    width: 233px;
+}
+.tamaño-2 {
+    border-radius: 7px;
+    margin-left: 43%;
+    width: 233px;
+}
+.textarea{
+    margin-left: 43%;
+    width: 237px;
+    height: 163px;
+}
+.submit {
+    color: wheat;
+    background-color: black;
+    margin-left: 48%;
+    font-size: 15px;
+    border: 1px solid rgba(233, 233, 233, 0.651);
+    border-radius: 5px;
+}
+.logo-footer{
+    margin-top: 75px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

@@ -1,0 +1,35 @@
+/*
+display:{
+    none--->No se ve
+    block--->Valor por defecto
+    inline--->En linea
+    inline block--->Todo el bloque en linea
+}
+*/
+.container{
+display: block;
+}
+a{
+    display: block;
+}
+h3{
+    display: inline;
+}
+div{
+text-align: center;
+width: 200px;
+display: inline-block;    
+.fixed{
+    background-color: tomato;
+    padding: 15px;
+    color: white;
+    
+}
+}
+.sticky{
+    border: 1px solid green;
+    padding: 2px;
+    position: sticky;
+    top 10px;
+
+}

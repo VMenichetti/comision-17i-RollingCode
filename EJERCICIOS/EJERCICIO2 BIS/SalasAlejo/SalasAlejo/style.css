@@ -1,0 +1,133 @@
+body {
+  margin: 0px;
+}
+header {
+  padding: 30px;
+}
+.inline {
+  display: inline-block;
+}
+.logo {
+  margin: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.links-nav {
+  position: absolute;
+  right: 200px;
+  margin-top: 21px;
+}
+.a-links {
+  margin: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.button {
+  float: right;
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid rgba(172, 172, 172, 0.639);
+  border-radius: 5px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.section-one {
+  padding: 30px;
+  background-color: rgb(181, 181, 181);
+}
+.title-section-one {
+  font-size: 25px;
+  font-weight: bold;
+}
+.img-section-two {
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  margin: 50px;
+}
+.text-section-two{
+  width: 500px;
+  position: absolute;
+  top: 50px;
+  margin-left: 50px;
+}
+.p-section-two {
+  line-height: 23px;
+}
+
+.section-two{
+  padding: 20px;
+}
+
+.cuadroSecTwo{
+  display: inline-block;
+  width: 450px;
+  padding: 10px;
+
+}
+.section-three{
+  padding: 30px;
+  height: 250px;
+  background-color: rgb(181, 181, 181);
+  position: relative;
+}
+.cuadro-submit{
+  background-color: rgb(145, 148, 148);
+  color: rgba(32, 32, 32, 0.639);
+  width: 400px;
+  text-align:left;
+  position: absolute;
+  top: 45%;
+  left: 32%;
+  border-radius:5px;
+  padding-left: 5px;
+}
+.buttom-submit{
+  position: absolute;
+  left: 46.8%;
+  top: 65%;
+  border-radius: 5px;
+  border: 1px solid rgba(70, 67, 67, 0.639);
+  background-color: rgb(145, 148, 148);
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: pointer;
+}
+footer{
+  position: relative;
+  background-color: rgb(145, 148, 148);
+  margin: 0;
+  height:100px;
+}
+
+.footer1{
+  margin: 0;
+
+}
+.h2-foot{
+  margin: 0;
+  position: absolute;
+  left: 47%;
+  top: 8%;
+}
+.p-foot{
+  margin: 0;
+  position: absolute;
+  left: 38%;
+  top: 60%;
+}
+.Iconos{
+  margin: 0;
+  position: absolute;
+  line-height: 23px;
+  left: 43.5%;
+  top: 35%;
+}
+i{
+  margin:5px;
+}
+
+

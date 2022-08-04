@@ -1,0 +1,91 @@
+:root{
+    --color-primary: rgb(53, 177, 199); 
+    --color-secondary: rgb(224, 239, 241);
+}
+body{
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+nav{
+    padding: 20px;
+    border: #a2b3ed;
+    background-color: beige;
+    border-radius: 10px 40px;
+}
+.inline {
+    display: inline-block;
+}
+.Logo {
+    margin: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    left: 150px;
+    font-family: 'Albert Sans', sans-serif;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+.links{
+    margin-top: 15px;
+    position: absolute;
+    right: 150px;
+    font-size: 20px;
+    color: rgb(177, 17, 44);
+    font-weight: bold;
+    text-decoration: none ; 
+    font-family: 'Albert Sans', sans-serif;
+}
+.boton {
+    border: 1px solid #2e518b; 
+    padding: 10px; 
+    background-color: #2e518b; 
+    color: #ffffff; 
+    text-decoration: none; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    border-radius: 20px
+    }
+header{
+    padding: 20px;
+
+}
+h1{
+    font-size: 25px;
+    color: var(--color-primary);
+    font-family: 'Albert Sans', sans-serif;
+}
+h2{
+    font-size: 20px;
+    color: var(--color-secondary);
+    font-family: 'Albert Sans', sans-serif;
+}
+.contenedor1{
+    width: 30%;
+    margin: 15px;
+    font-size: 20px;
+    font-family: 'Albert Sans', sans-serif;
+    color: var(--color-secondary)
+}
+img{
+    max-width: 350px;
+    height: auto;
+    border-radius: 30px;
+
+}
+.flex-container{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    border: #a2b3ed;
+    background-color: beige;
+    border-radius: 10px 40px;
+}
+.flex-item{
+    margin: 10px;
+    height: 120px;
+    min-width: 500px;
+    color: rgb(52, 52, 193);
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Albert Sans', sans-serif;
+}

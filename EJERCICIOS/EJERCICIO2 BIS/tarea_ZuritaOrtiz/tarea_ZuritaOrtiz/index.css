@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    color: #1f2407;
+}
+
+body {
+    background-color: #F7EDDB;
+}
+
+header {
+    background-color: #DAE2B6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 5px;
+    transition-duration: 0.3s;
+    border-radius: 3px;
+}
+
+nav ul li:hover {
+    background-color: #CCD6A6;
+}
+
+.nombre-pagina {
+    font-size: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.btn-verMas, .btn-enviar {
+    display: flex;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #616c2a;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.btn-verMas:hover, .btn-enviar:hover {
+    opacity: 1;
+}
+
+svg.bi.bi-arrow-right {
+    margin-left: 5px;
+}
+
+p {
+    margin: 20px 0px;
+    font-size: 15px;
+}
+
+section {
+    padding: 15px;
+}
+
+section.principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section.principal > div {
+    margin: 5px;
+}
+
+.resaltar {
+    text-decoration: underline;
+}
+
+.deportes {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.deporte {
+    width: 250px;
+    text-align: center;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #DAE2B6;
+    border-radius: 5px;
+}
+
+.input {
+    display: block;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+textarea.input {
+    height: 100px;
+}
+
+.btn-enviar {
+    margin: auto;
+}
+
+footer {
+    background-color: #6f7743;
+    padding: 15px;
+}
+
+hr {
+    border-color: #1f2407;
+    margin: 15px 0px;
+}
+
+footer {
+    text-align: center;
+}
+
+.copy {
+    font-size: 12px;
+}
+
+.rrss {
+    margin-bottom: 10px;
+}
+
+.rrss a {
+    display: inline-block;
+    margin: 0 10px;
+}
